@@ -1,0 +1,11 @@
+1. Inicializar el proyecto
+terraform init -var-file prd.tfvars
+2. Inicializar el plan de despliegue
+terraform plan
+3. Aplicar configuración definida
+terraform apply -var-file prd.tfvars
+
+#Ajustar formato de los archivos terraform .tfvars
+terraform fmt 
+#validar configuración
+terraform validate
