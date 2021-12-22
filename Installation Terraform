@@ -1,5 +1,0 @@
-1. Descargar Terraform https://www.terraform.io/downloads
-2. Crear una carpeta en la ruta "C:\Program Files\" con el nombre Terraform
-3. Pegar en la ruta  "C:\Program Files\Terraform" el archivo descargado "terraform.exe"
-4. Editar la variable de entorno "path" para el usuario que se este usando en Windows, se agrega la ruta donde quedo guardado el archivo terraform.exe
-5. Editar la variable de entorno "path" del sistema, se agrega la ruta donde quedo guardado el archivo terraform.exe
