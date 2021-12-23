@@ -1,7 +1,7 @@
-1. Inicializar el proyecto
-terraform init -var-file prd.tfvars
+1. Inicializar el proyecto con el estado remoto en S3
+terraform init -backend-config="infrastructure-prod.config"
 2. Inicializar el plan de despliegue
-terraform plan
+terraform plan -var-file prd.tfvars
 3. Aplicar configuración definida
 terraform apply -var-file prd.tfvars
 
